@@ -1,0 +1,42 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddfe2;
+    width: 400px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: rgba(143, 135, 135, 0.329);
+    box-shadow: 0 2px 4px rgb(0 0 0/10%), 0 8px 16px rgb(0 0 0/10%);
+    position: relative;
+    flex-direction: column;
+    color: white;
+}
+
+.register > input {
+    display: flex;
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+    flex-direction: column;
+}
+
+.register > .button{
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem ;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+}
